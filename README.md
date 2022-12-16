@@ -52,6 +52,13 @@ Time taken (s):          12.158
 Logs/s:                  19786.560289521305
 ```
 
+```
+runSolutions(10000);
+Logs printed:            2388433
+Time taken (s):          117.779
+Logs/s:                  20278.937671401523
+```
+
 ### Async Solution
 
 ```
@@ -66,4 +73,11 @@ runSolutions(1000);
 Logs printed:            240699
 Time taken (s):          15.137
 Logs/s:                  15901.367510074651
+```
+
+```
+runSolutions(10000);
+Logs printed:            2391187
+Time taken (s):          128.178
+Logs/s:                  18655.2060415984
 ```
