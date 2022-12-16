@@ -33,3 +33,37 @@ There are two parts of the challenge which you'll see when diving into things.  
 Create a GitHub repo and email your point of contact the link.
 
 If - for whatever reason - you cannot create a GitHub repo for this challenge, it is also acceptable to 'zip' the directory and provide your submission as an email attachment.
+
+## Performance Testing
+
+### Sync Solution
+
+```
+runSolutions(100);
+Logs printed:            23941
+Time taken (s):          1.227
+Logs/s:                  19511.817440912793
+```
+
+```
+runSolutions(1000);
+Logs printed:            240565
+Time taken (s):          12.158
+Logs/s:                  19786.560289521305
+```
+
+### Async Solution
+
+```
+runSolutions(100);
+Logs printed:            23721
+Time taken (s):          3.583
+Logs/s:                  6620.429807423946
+```
+
+```
+runSolutions(1000);
+Logs printed:            240699
+Time taken (s):          15.137
+Logs/s:                  15901.367510074651
+```
